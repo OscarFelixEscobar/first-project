@@ -1,9 +1,8 @@
 /*----- app's state (variables) -----*/
-let clicked, winner, counter, loseCounter
+let clicked, counter, loseCounter
 
 clicked = false
 counter = 0
-winner
 loseCounter = 0
 
 
