@@ -11,7 +11,7 @@ You have 5 miss attempts before you LOSE!
 - JAVASCRIPT
 
 ## Link to Game
-- 
+- https://oscarfelixescobar.github.io/
 
 
 # IceBox Items
