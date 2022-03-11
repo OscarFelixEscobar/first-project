@@ -24,7 +24,7 @@ boardEl.addEventListener('click', showColor)
 
 
 /*----- functions -----*/
-//function that will remove the hidden class and reveal the color of the block
+//function that will remove the hidden class and reveal the color of the block  and match them.
 function showColor (e){
     if (e.target.classList.contains("block")){
         e.target.id = ""
@@ -43,7 +43,7 @@ function showColor (e){
             }
             clicked = false
         }
-    } // win loss conditions saying if you reach 5 mistakes the h1 above will display "You lose!"
+    } // win/loss conditions saying if you reach 5 mistakes the h1 above will display "You lose!"
     if (counter === 8){
         bannerEl.textContent = "YOU WIN!"
         boardEl.removeEventListener('click', showColor)
