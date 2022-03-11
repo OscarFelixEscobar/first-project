@@ -1,10 +1,3 @@
-/*----- constants -----*/
-
-
-
-
-
-
 /*----- app's state (variables) -----*/
 let clicked, winner, counter, loseCounter
 
@@ -44,13 +37,13 @@ function showColor (e){
                 const pairs = document.querySelectorAll(`.${clicked}`)
                 pairs[0].id = "hidden"
                 pairs[1].id = "hidden"
-                console.log(pairs)
+
                 e.target.id = "hidden"
                 loseCounter += 1
             }
             clicked = false
         }
-    }
+    } // win loss conditions saying if you reach 5 mistakes the h1 above will display "You lose!"
     if (counter === 8){
         bannerEl.textContent = "YOU WIN!"
         boardEl.removeEventListener('click', showColor)
